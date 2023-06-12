@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+
+        <Button fx:id="authButton" layoutX="491.0" layoutY="14.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="95.0" style="-fx-background-color: #000000;" text="Авторизация" textFill="WHITE">
+            <font>
+                <Font name="Comic Sans MS" size="12.0" />
+            </font>
+        </Button>
+      <TableView fx:id="tableEvent" layoutX="78.0" layoutY="59.0" prefHeight="273.0" prefWidth="452.0">
+        <columns>
+          <TableColumn fx:id="nameEvent" prefWidth="341.0" text="Мероприятие" />
+          <TableColumn fx:id="dataEvent" prefWidth="110.0" text="Дата" />
+        </columns>
+      </TableView>
+    </children>
+</AnchorPane>
